@@ -455,7 +455,7 @@ div.ant-carousel-arrow-left {
   left: -2px;
   top: 44%;
   display: block;
-  background: url(../images/background-zeleniy.jpg) no-repeat;
+  background: url("http://pvbk.spb.ru/inc/carousel/ant-files/ant-arrow-left.png") no-repeat;
 }
 /* правая стрелка слайдера */
 div.ant-carousel-arrow-right {
@@ -463,8 +463,22 @@ div.ant-carousel-arrow-right {
   right: -4px;
   top: 44%;
   display: block;
-  background: url(../images/background-vay.jpg) no-repeat;
+  background: url("http://pvbk.spb.ru/inc/carousel/ant-files/ant-arrow-right.png") no-repeat;
 }
+
+/* точки слайдера */
+span.ant-dot {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  padding: 0;
+  display: inline-block;
+  background-color: #bbb;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
 /* стили секции 4 */
 .s4 {
   display: flex;
